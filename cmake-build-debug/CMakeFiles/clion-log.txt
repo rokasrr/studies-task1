@@ -1,0 +1,4 @@
+"C:\Users\s038477\AppData\Local\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\s038477\CLionProjects\projektinis
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/s038477/CLionProjects/projektinis/cmake-build-debug

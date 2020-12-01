@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="projektinis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/s038477/CLionProjects/projektinis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projektinis">
+				<Option output="C:/Users/s038477/CLionProjects/projektinis/cmake-build-debug/projektinis.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/s038477/CLionProjects/projektinis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 projektinis"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projektinis/fast">
+				<Option output="C:/Users/s038477/CLionProjects/projektinis/cmake-build-debug/projektinis.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/s038477/CLionProjects/projektinis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 projektinis/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/s038477/CLionProjects/projektinis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/s038477/CLionProjects/projektinis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\s038477\CLionProjects\projektinis\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/Automobilis.cpp">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/Automobilis.h">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/KuroBakas.cpp">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/KuroBakas.h">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/Ratas.cpp">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/Ratas.h">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/SpausdinimoPagalbininkas.cpp">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/SpausdinimoPagalbininkas.h">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/Vairas.cpp">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/Vairas.h">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/Variklis.cpp">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/Variklis.h">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/VykdymoPagalbininkas.cpp">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/VykdymoPagalbininkas.h">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/main.cpp">
+			<Option target="projektinis"/>
+		</Unit>
+		<Unit filename="C:/Users/s038477/CLionProjects/projektinis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
